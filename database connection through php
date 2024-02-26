@@ -13,9 +13,9 @@ if ($conn->connect_error) {
 		. $conn->connect_error); 
 } 
  
-$sql = "CREATE DATABASE geekdata"; 
+$sql = "CREATE DATABASE ABCdata"; 
 if ($conn->query($sql) === TRUE) { 
-	echo "Database with name dylis"; 
+	echo "Database with name of Database"; 
 } else { 
 	echo "Error: " . $conn->error; 
 } 
